@@ -23,10 +23,124 @@
     },
     "NEW": "Yeni"
   },
+  "COMMUNITY": {
+    "ARTICLES": {
+      "ERRORS": {
+        "SHARING": {
+          "NO_CONTENT": {
+            "SRC": "Paylaşmaya çalıştığınız belge biraz boş görünüyor. Lütfen en az {{minimum}} rem ekleyin ve tekrar deneyin."
+          },
+          "NO_TITLE": {
+            "SRC": "Paylaşmaya çalıştığınız belgenin bir başlığı yok. Yayımlamadan önce bir başlık eklemeniz gerekiyor.",
+            "SUBDOCUMENT": "Alt belgelerinizden birinin başlığı yok. Başlık alana kadar yayınlanmayacak."
+          }
+        }
+      }
+    }
+  },
+  "DOCUMENT": {
+    "DIALOGS": {
+      "DELETE_ALSO_UNSHARE": "Belgenin paylaşımını da kaldırmak istiyor musunuz?",
+      "DELETE_CONFIRM_DIALOG": "Bu belgeyi silmek istediğinizden emin misiniz?",
+      "DELETE_UNSHARE_ERROR": "Bu belgenin paylaşımı iptal edilirken bir hata oluştu. Lütfen manuel olarak paylaşımı iptal edin.",
+      "DELETE_UNSHARE_OFFLINE_ERROR": "Çevrimdışısınız. Lütfen çevrimiçi olduğunuzda belgenin paylaşımını manuel olarak tekrar iptal edin."
+    },
+    "MENU": {
+      "ADD_NESTED_DOCUMENT": "İç İçe Belge Ekle",
+      "CHANGE_DOCUMENT_ICON": "Belge Simgesini Değiştir",
+      "CHANGE_DOCUMENT_STATUS": "Belge Durumunu Değiştir",
+      "CHANGE_FOLDER_ICON": "Klasör Simgesini Değiştir",
+      "CUSTOMIZE_SPACED_REPETITION": "Aralıklı Tekrarı Özelleştir",
+      "DELETE": "Sil",
+      "EDIT_MODE": {
+        "READ": "Sadece Okuma Modu",
+        "WRITE": "Düzenleme Modu"
+      },
+      "EXPORT": "Dışarıya Aktar",
+      "FIND_OR_FILTER": "Bul veya Filtrele",
+      "FIND_TEXT_REFERENCES": {
+        "LABEL": "Metin Referanslarını Bul"
+      },
+      "MARK_AS_DOCUMENT": "Belge Olarak İşaretle",
+      "MOVE": "Taşı",
+      "MULTI_SELECTION_FOLDER": "Birden Fazla Klasör/Belge Seçin",
+      "MULTI_SELECTION_MODE": "Birden Fazla Rem Seçin",
+      "OPEN_IN_ANOTHER_PANE": "Başka Bir Bölmede Aç",
+      "PIN_TO_SIDEBAR": "Kenar Çubuğuna Sabitle",
+      "PRINT": "Yazdır",
+      "RENAME": "Yeniden Adlandır",
+      "SHOW_STUDY_BUTTON": "Çalışma Düğmesini Göster",
+      "STATS": "İstatistikler",
+      "UNDO": "Geri Al",
+      "UNPIN_FROM_SIDEBAR": "Kenar Çubuğundan Sabitlemeyi Kaldır",
+      "UNSHARE_DOCUMENT": "Belgeyi Paylaşımdan Çıkar",
+      "VIEW_GRAPH": "Yerel Grafiği Görüntüle",
+      "VIEW_TRASH": "Çöp Kutusunu Görüntüle"
+    },
+    "PUBLISH_STATUS": {
+      "DRAFT": "Taslak",
+      "FINISHED": "Bitti",
+      "PINNED": "Sabitlendi"
+    }
+  },
+  "FILE_UPLOADING": {
+    "NOT_FOUND": "Bu dosya bulunamadı.",
+    "NOT_YET_UPLOADED": "Bu dosya henüz yüklenmedi.",
+    "SNIPPING": {
+      "PDF": "Lütfen destek ekibiyle iletişime geçin."
+    }
+  },
   "LANGUAGE": {
     "LANGUAGE_WORD": "Dil",
     "TRANSLATION_INFO_SETTINGS": "Çeviri hala devam etmektedir; İngilizce ve seçilen dilin bir karışımıyla karşılaşacaksınız.<br> <guideLink>eğitim</guideLink>'i inceleyerek ve ardından çevirilere yardımcı olmak için <editorLink>web editörümüzü</editorLink> kullanarak katkıda bulunabilirsiniz.",
     "TRANSLATION_IN_PROGRESS": "RemNote'un çevirisi hala devam ediyor. <0>Inlang'da</0> çevirilere katkıda bulunabilirsiniz."
+  },
+  "NOTIFICATIONS": {
+    "ARTICLE_DEFAULT": "Belgeniz",
+    "ARTICLE_VIEWS": {
+      "BODY_1": "Belgeniz"
+    },
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "eklendi"
+    },
+    "EMPTY_STATE_TITLE": "Yakın zamanda bildiriminiz yok",
+    "GROUP_DEFAULT": "Grubunuz",
+    "IMPORT": {
+      "BODY": "Birisi belgenizi içe aktardı"
+    },
+    "INVITE": {
+      "ACCEPT": "Daveti Kabul Et",
+      "BODY": "katılmanız için sizi davet etti",
+      "REJECT": "Reddet"
+    },
+    "NEW_COMMENT": {
+      "BODY": "yorumlandı",
+      "BODY_ARTICLE": "belgenize yorum yaptı",
+      "BODY_COMMENT": "yorumunuza yanıt verdi",
+      "BODY_GROUP": "grubunuza bir sohbet gönderdi"
+    },
+    "NEW_FOLLOWER": {
+      "BODY": "sizi takip etti"
+    },
+    "NEW_LIKE": {
+      "BODY": "beğenildi"
+    },
+    "POPUP_TITLE": "Son Bildirimler"
+  },
+  "ONBOARDING": {
+    "SIDEBAR": {
+      "INITIAL": {
+        "PAGE_0": {
+          "TITLE": "Bir Klasör Oluştur"
+        },
+        "PAGE_1": {
+          "TITLE": "Bir Madde İşareti Ekle"
+        },
+        "PAGE_2": {
+          "TITLE": "Bir Flaşkart Oluştur"
+        }
+      }
+    }
   },
   "PAGES": {
     "ALL_NOTES": {
@@ -47,8 +161,17 @@
   "PDF": {
     "ADD_ANNOTATIONS": {
       "AI_DROPDOWN": {
+        "BASIC_CARDS": "Temel Kartlar",
+        "BASIC_CARDS_TOOLTIP": "Seçili metinden temel soru-cevap kartları oluşturun.",
+        "CLOZE_CARDS": "Cloze (Boşluk Doldurma) Kartları",
+        "CLOZE_CARDS_TOOLTIP": "Seçili metinden boşluk doldurma kartları oluşturun.",
+        "CONCEPT_CARDS": "Konsept Kartları",
         "GENERATE_SECTION": "OLUŞTUR"
       },
+      "CLOZE_BTN_TOOLTIP": "Cloze (Boşluk Doldurma) Kartı",
+      "COPY_IMAGE": "Resmi Kopyala",
+      "COPY_IMAGE_AS_TEXT": "AI ile Resmi Metin Olarak Kopyala",
+      "COPY_TEXT": "Düz Metin Olarak Kopyala",
       "HIGHLIGHT": "Vurgula",
       "NOTE_BTN_TOOLTIP": "Not"
     },
@@ -56,17 +179,26 @@
       "VIEW_REFERENCES": "Referansları Görüntüle"
     },
     "HEADER": {
-      "NUMBER_OF_PAGES_TOOLTIP": "sayfa sayısı"
+      "NUMBER_OF_PAGES_TOOLTIP": "sayfa sayısı",
+      "TOGGLE_DEFAULT_DOCUMENT_TOOLTIP": "Varsayılan Belgeyi Değiştir"
     },
     "PDF_OPTIONS": {
+      "CHANGE_THEME": "Temayı değiştir",
       "DOWNLOAD_PDF": "PDF'yi indir",
       "LEARN_MORE": "Daha fazla öğren",
       "OPEN_WEBPAGE_EXTERNALLY": "Web sayfasını harici olarak aç",
       "PDF_SETTINGS": "Ayarlar",
+      "PDF_SETTINGS_MENU": {
+        "AUTO_HIGHLIGHT": "Otomatik vurgula",
+        "SNAP_HIGHLIGHT_TO_WORDS_TOOLTIP": "Yeni vurgulamalar yaparken yalnızca tüm kelimeleri seçin."
+      },
+      "REFETCH_PAGE": "Sayfayı yeniden getir",
       "SEARCH_IN_PDF": "PDF'de ara",
+      "SPLIT_PANES": "Bölünmüş bölmeler",
       "THEMES": {
         "DARK": "Karanlık",
-        "LIGHT": "Aydınlık"
+        "LIGHT": "Aydınlık",
+        "USE_REMNOTE_THEME": "RemNote temasını kullan"
       }
     },
     "SEARCH_CTRL_F": {
@@ -76,6 +208,7 @@
   "POPUPS": {
     "CREATE_CONTENT_OPTIONS": {
       "DOCUMENT": {
+        "DESCRIPTION": "Kartları ve notları belgeler halinde düzenleyin.",
         "TITLE": "Belge"
       },
       "FOLDER": {
@@ -83,6 +216,7 @@
         "TITLE": "Klasör"
       },
       "QUICK_ADD": {
+        "DESCRIPTION": "Fikirlerinizi anında yakalayın!",
         "TITLE": "Hızlı Ekle"
       },
       "TABLE_TAG": {
@@ -108,8 +242,11 @@
       "AUTHENTICATION_TITLE": "Doğrulama",
       "CACHING": {
         "DESCRIPTION": "Yüklendiğinde resimleri önbelleğe alın, böylece çevrim dışıyken de görüntülenebilir.",
+        "NUMBER_DESCRIPTION": "Önbelleğe alınacak maksimum resim sayısını ayarlayın. Sınıra ulaşıldığında, en eski resimler önbellekten silinecektir.",
         "NUMBER_TITLE": "Maksimum Önbelleğe Alınan Görüntü",
-        "TITLE": "Önbelleğe alınıyor"
+        "TITLE": "Önbelleğe alınıyor",
+        "TOGGLE_DESCRIPTION": "Devre dışı bırakıldığında önbelleğe alınmış tüm resimler temizlenecektir.",
+        "TOGGLE_TITLE": "Önbelleği Etkinleştir"
       },
       "DANGER_ZONE": {
         "TITLE": "Tehlike Bölgesi"
@@ -141,6 +278,8 @@
     },
     "EARN_CREDIT": {
       "APPLY_CREDIT": "Kredinizi uygulayın",
+      "BALANCE_IN_MONTHS_SG": "{{numMonths}} ay",
+      "BALANCE_IN_MONTHS_PL": "{{numMonths}} ay",
       "COPIED": "Kopyalandı!",
       "COPYLINK": "Bağlantıyı Kopyala",
       "CREATE_ACCOUNT": "Arkadaşlarınızı davet etmek için bir hesap oluşturun",
@@ -154,14 +293,17 @@
       "INVITE_COPIED": "Davet bağlantısı kopyalandı!",
       "INVITE_EMAIL": "E-posta yoluyla davet et",
       "INVITE_ERROR": "Bir şeyler ters gitti. Lütfen daha sonra tekrar deneyin.",
+      "INVITE_FRIENDS_EARN_CREDIT": "Davet ettiğiniz birisi RemNote kullanmaya başladığında, ikiniz de bir ay ücretsiz RemNote Pro kazanırsınız.",
       "INVITE_FRIENDS_REMNOTE": "Arkadaşlarınızı RemNote'a davet edin!",
       "INVITE_TEXT": "Arkadaşlarını davet et",
       "NOT_CONFIRMED_EMAIL": " (e-postayı doğrulamadı)",
+      "REMAINING_MONTHS": "Kalan Aylar",
       "SEND_INVITE": "Davetiye gönder",
       "SHARE_LINK": "Bağlantıyı paylaş",
-      "TITLE": "Kredi Kazanın",
+      "TITLE": "Krediler",
       "TOAST_RENEW": "Mevcut aboneliğiniz yenilendiğinde kredileriniz otomatik olarak uygulanacaktır.",
       "TOAST_SUBSCRIBE": "RemNote Pro'ya abone olduğunuzda kredileriniz otomatik olarak uygulanacaktır. Başlamak için aşağıdan bir plan seçin!",
+      "TOTAL_MONTHS_EARNED": "Kazanılan Toplam Pro Ayı",
       "VERIFY_EMAIL": "Birini davet etmek için öncelikle e-postanızı doğrulayın.",
       "CREDIT_BALANCE": "Kredi Bakiyesi"
     },
@@ -179,6 +321,7 @@
           "TITLE": "Zaman Biçimlendirme"
         },
         "WEEK_STARTS_ON_MONDAY": {
+          "DESCRIPTION": "Tarih seçiciden tarih seçerken takvimdeki her satırı Pazar yerine Pazartesi ile başlatın.",
           "TITLE": "Hafta Pazartesi günüyle başlar"
         }
       },
@@ -186,7 +329,8 @@
         "CREATE_STUBS_FROM_SEARCH": {
           "DESCRIPTION": {
             "MAC": "Arama sırasında Cmd+Return tuşlarına basarak bir Rem oluştururken, onu “Stub” olarak etiketleyin."
-          }
+          },
+          "TITLE": "Aramadan Taslaklar Oluştur"
         },
         "ENABLE_SPELLCHECK": {
           "TITLE": "Yazım Denetimini Etkinleştir"
@@ -199,6 +343,7 @@
     },
     "EDITOR_INTERFACE": {
       "ENABLE_ZOOM_INTO_BULLET": {
+        "LABEL": "Madde işaretine tıkladığınızda, Rem'i tam sayfa olarak gösterin",
         "TITLE": "Madde İşaretine Yakınlaştırmayı Etkinleştir"
       },
       "PREVIEW_REM_ON_HOVER": {
@@ -210,6 +355,9 @@
       },
       "SINGLE_CLICK_REFERENCES_TO_OPEN": {
         "TITLE": "Tek Tıklamayla Açılan Referanslar"
+      },
+      "SMOOTHLY_ANIMATE_THE_EDITOR": {
+        "LABEL": "Editörde Rem ekleme veya silme animasyonu."
       }
     },
     "FLASHCARDS": {
@@ -232,6 +380,9 @@
         "LEARN_AHEAD_LIMIT": {
           "TITLE": "Önceden Öğrenme Limiti"
         },
+        "NEW_CARDS_PER_DAY": {
+          "TITLE": "Günlük Maksimum Yeni Kart Sayısı"
+        },
         "NEXT_DAY_STARTS_AT": {
           "TITLE": "Ertesi Gün Şu Saatte Başlıyor"
         },
@@ -241,6 +392,7 @@
           "TITLE": "Flashcard Ayarlarını Sıfırla"
         },
         "SIMPLIFIED_FLASHCARD_BUTTONS": {
+          "DESCRIPTION": "Kartlarda sadece “Unuttum” ve “Hatırladım” butonlarını göster.",
           "TITLE": "Basitleştirilmiş Flashcard Düğmeleri"
         },
         "TEXT_TO_SPEECH_SPEED": {
@@ -326,7 +478,11 @@
     },
     "NOTIFICATIONS": {
       "DESCRIPTIONS": {
+        "ARTICLE_VIEWS": {
+          "TITLE": "Belge görünüm bildirimleri"
+        },
         "DOCUMENT_ADDED_TO_GROUP": {
+          "LABEL": "Bulunduğunuz gruba bir belge eklendi",
           "TITLE": "Belge grup bildirimine eklendi"
         },
         "INVITE": {
@@ -335,8 +491,21 @@
         },
         "NEW_COMMENT": {
           "TITLE": "Yorum bildirimleri"
+        },
+        "NEW_FOLLOWER": {
+          "LABEL": "Birisi seni takip ediyor",
+          "TITLE": "Takipçi bildirimleri"
+        },
+        "NEW_LIKE": {
+          "LABEL": "Birisi paylaştığınız bir belgeyi beğendi",
+          "TITLE": "Beğenme bildirimleri"
+        },
+        "STREAK": {
+          "LABEL": "Çalışma serinizi sürdürmek için günlük bildirimler alın!",
+          "TITLE": "Seri bildirimleri"
         }
       },
+      "ENABLE_COMMUNITY_TITLE": "Topluluk Bildirimleri",
       "ENABLE_DUE_CARDS_TITLE": "Vadeli kart rozeti",
       "ENABLE_EMAIL_TITLE": "E-posta topluluğu bildirimlerini etkinleştir",
       "ENABLE_PUSH_TITLE": "Anlık bildirimler",
